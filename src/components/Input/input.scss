@@ -1,0 +1,50 @@
+@import 'src/styles/vars';
+
+.input-container {
+  background-color: $mainColor;
+  padding: 2.7rem 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.3em;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.currency {
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.input-amount {
+  width: 3em;
+  background-color: $mainColor;
+  padding: 5px 3px 0px 3px;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-right: 5px;
+  border: 1px solid #f1c5b6;
+  text-align: right;
+  font-family: 'Spartan', sans-serif;
+  color: #f1c5b6;
+}
+
+#currency-selected {
+  background-color: $mainColor;
+  border: 1px solid #f1c5b6; 
+  font-size: 1em;
+  font-weight: 300;
+  width: 13em;
+  padding: 8px 0 2px 2px;
+  color: #f1c5b6;
+  outline: none;
+
+  .one-currency {
+    background-color: $mainColor;
+    color: #fff;
+  }
+}
+
+

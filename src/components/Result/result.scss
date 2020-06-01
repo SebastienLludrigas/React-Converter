@@ -1,0 +1,19 @@
+@import 'src/styles/vars';
+
+.result-container {
+  padding: 2.7rem;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 2.3em;
+  margin-bottom: 20px;
+  color: $mainColor;
+}
+
+.currency-name {
+  font-weight: 300;
+  font-weight: 300;
+  font-size: 1.4em;
+  color: $mainColor;
+}

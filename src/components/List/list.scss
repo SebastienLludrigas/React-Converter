@@ -1,0 +1,36 @@
+@import 'src/styles/vars';
+
+.list-container {
+  overflow-y: scroll;
+  height: 300px;
+  text-align: left;
+}
+
+.list-name {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: $mainColor;
+  padding: 1.4em 1em 0.8em 1em;
+}
+
+.one-currency {
+  font-weight: 500;
+  padding: 0.9em 1em 0.7em 1em;
+  font-size: 1.2em;
+  color: $mainColor;
+  border-top: 1px solid #f1c5b6;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 1s -0.2s;
+
+    &:hover {
+      background-color: #f1c5b6;
+    }
+
+    
+}
+
+
+
+
+
